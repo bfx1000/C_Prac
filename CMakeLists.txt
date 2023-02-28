@@ -3,4 +3,4 @@ project(dianzhen C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(dianzhen oneLed.c)
+add_executable(dianzhen  Matrix_Led.c)

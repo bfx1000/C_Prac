@@ -49,26 +49,8 @@ cmake_ninja_workdir = D$:/programs/workspace_clion/dianzhen/cmake-build-debug/
 
 build cmake_object_order_depends_target_dianzhen: phony || CMakeFiles/dianzhen.dir
 
-build CMakeFiles/dianzhen.dir/main.c.obj: C_COMPILER__dianzhen_Debug D$:/programs/workspace_clion/dianzhen/main.c || cmake_object_order_depends_target_dianzhen
-  DEP_FILE = CMakeFiles\dianzhen.dir\main.c.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu11
-  OBJECT_DIR = CMakeFiles\dianzhen.dir
-  OBJECT_FILE_DIR = CMakeFiles\dianzhen.dir
-
-build CMakeFiles/dianzhen.dir/main2.c.obj: C_COMPILER__dianzhen_Debug D$:/programs/workspace_clion/dianzhen/main2.c || cmake_object_order_depends_target_dianzhen
-  DEP_FILE = CMakeFiles\dianzhen.dir\main2.c.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu11
-  OBJECT_DIR = CMakeFiles\dianzhen.dir
-  OBJECT_FILE_DIR = CMakeFiles\dianzhen.dir
-
-build CMakeFiles/dianzhen.dir/oneLed.c.obj: C_COMPILER__dianzhen_Debug D$:/programs/workspace_clion/dianzhen/oneLed.c || cmake_object_order_depends_target_dianzhen
-  DEP_FILE = CMakeFiles\dianzhen.dir\oneLed.c.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu11
-  OBJECT_DIR = CMakeFiles\dianzhen.dir
-  OBJECT_FILE_DIR = CMakeFiles\dianzhen.dir
-
-build CMakeFiles/dianzhen.dir/_8x8Led.c.obj: C_COMPILER__dianzhen_Debug D$:/programs/workspace_clion/dianzhen/_8x8Led.c || cmake_object_order_depends_target_dianzhen
-  DEP_FILE = CMakeFiles\dianzhen.dir\_8x8Led.c.obj.d
+build CMakeFiles/dianzhen.dir/Matrix_Led.c.obj: C_COMPILER__dianzhen_Debug D$:/programs/workspace_clion/dianzhen/Matrix_Led.c || cmake_object_order_depends_target_dianzhen
+  DEP_FILE = CMakeFiles\dianzhen.dir\Matrix_Led.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = CMakeFiles\dianzhen.dir
   OBJECT_FILE_DIR = CMakeFiles\dianzhen.dir
@@ -81,7 +63,7 @@ build CMakeFiles/dianzhen.dir/_8x8Led.c.obj: C_COMPILER__dianzhen_Debug D$:/prog
 #############################################
 # Link the executable dianzhen.exe
 
-build dianzhen.exe: C_EXECUTABLE_LINKER__dianzhen_Debug CMakeFiles/dianzhen.dir/main.c.obj CMakeFiles/dianzhen.dir/main2.c.obj CMakeFiles/dianzhen.dir/oneLed.c.obj CMakeFiles/dianzhen.dir/_8x8Led.c.obj
+build dianzhen.exe: C_EXECUTABLE_LINKER__dianzhen_Debug CMakeFiles/dianzhen.dir/Matrix_Led.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\dianzhen.dir
