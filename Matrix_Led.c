@@ -1,3 +1,6 @@
+/**
+ * 二次提交，完成版
+ */
 #include <REGX52.H>
 #include <intrins.h>
 sbit DIO = P3 ^ 4;//一位的串行数据，满足非0即1
