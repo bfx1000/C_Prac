@@ -1,10 +1,12 @@
+/**
+ * 8*8 点阵屏，循环显示 “电子”
+ */
 #include <REGX52.H>
 #include <intrins.h>
 
 sbit DIO = P3 ^ 4;   //一位的串行数据输入端
 sbit SR_CLK = P3 ^ 5;//串行输入开关
 sbit R_CLK = P3 ^ 6; //并行输出开关
-
 
 unsigned char ch[][8] = {
         //电
