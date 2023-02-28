@@ -1,5 +1,5 @@
 /**
- * 二次提交，完成版
+ * 8*8 led矩阵，循环显示“电子”
  */
 #include <REGX52.H>
 #include <intrins.h>
