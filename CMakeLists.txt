@@ -3,4 +3,4 @@ project(dianzhen C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(dianzhen  Matrix_Led.c External_Interrupt.c)
+add_executable(dianzhen  Matrix_Led.c External_Interrupt.c Timer_Counter_timing.c)
