@@ -67,6 +67,12 @@ build CMakeFiles/dianzhen.dir/Timer_Counter_timing.c.obj: C_COMPILER__dianzhen_D
   OBJECT_DIR = CMakeFiles\dianzhen.dir
   OBJECT_FILE_DIR = CMakeFiles\dianzhen.dir
 
+build CMakeFiles/dianzhen.dir/Timer_Counter_calc.c.obj: C_COMPILER__dianzhen_Debug D$:/programs/workspace_clion/dianzhen/Timer_Counter_calc.c || cmake_object_order_depends_target_dianzhen
+  DEP_FILE = CMakeFiles\dianzhen.dir\Timer_Counter_calc.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu11
+  OBJECT_DIR = CMakeFiles\dianzhen.dir
+  OBJECT_FILE_DIR = CMakeFiles\dianzhen.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target dianzhen
@@ -75,7 +81,7 @@ build CMakeFiles/dianzhen.dir/Timer_Counter_timing.c.obj: C_COMPILER__dianzhen_D
 #############################################
 # Link the executable dianzhen.exe
 
-build dianzhen.exe: C_EXECUTABLE_LINKER__dianzhen_Debug CMakeFiles/dianzhen.dir/Matrix_Led.c.obj CMakeFiles/dianzhen.dir/External_Interrupt.c.obj CMakeFiles/dianzhen.dir/Timer_Counter_timing.c.obj
+build dianzhen.exe: C_EXECUTABLE_LINKER__dianzhen_Debug CMakeFiles/dianzhen.dir/Matrix_Led.c.obj CMakeFiles/dianzhen.dir/External_Interrupt.c.obj CMakeFiles/dianzhen.dir/Timer_Counter_timing.c.obj CMakeFiles/dianzhen.dir/Timer_Counter_calc.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\dianzhen.dir
