@@ -1,3 +1,6 @@
+/**
+ * 需求：双计数器并用，每秒计数，呼吸灯同步亮灭
+ */
 #include <reg52.h>
 #include <intrins.h>
 
